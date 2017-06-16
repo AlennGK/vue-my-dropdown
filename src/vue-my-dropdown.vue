@@ -3,7 +3,7 @@
     <span><slot></slot></span>
     <transition :name="animation">
       <div :style="ddStyle" class="my-dropdown-dd" v-show="visible">
-          <slot name="dropdown"></slot></div>
+          <slot name="dropdown"></slot>
       </div>
     </transition>
   </span>
